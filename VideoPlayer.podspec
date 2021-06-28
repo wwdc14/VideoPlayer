@@ -16,18 +16,23 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VideoPlayer"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of VideoPlayer."
+  spec.version      = "1.0.0"
+  spec.summary      = "Automatic play video in UITableView like Weibo home page in main thread and never block main thread."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = 'This library provides an video player with cache support in UITableView.'\
+                   'Cache video data at playing'\
+                   'Handle play or stop video in mian-thread'\
+                   'Excellent performance!'\
+                   'Always play the video of the UITableViewCell in screen center when scrolling'\
+                   'A guarantee that the same URL won\'t be downloaded several times'\
+                   'A guarantee that main thread will never be blocked'
 
-  spec.homepage     = "http://EXAMPLE/VideoPlayer"
+  spec.homepage     = "https://github.com/wwdc14/VideoPlayer"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +43,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -63,8 +68,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/VideoPlayer.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wwdc14/VideoPlayer.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +95,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.resource = "Sources/VideoPlayer/JPVideoPlayer.bundle"
+  spec.source_files  = "Sources/**/*.{h,m}"
+  spec.public_header_files = "Sources/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -117,10 +121,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreServices'
 
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -129,7 +131,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
