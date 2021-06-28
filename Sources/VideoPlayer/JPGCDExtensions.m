@@ -12,8 +12,6 @@
 #import "JPGCDExtensions.h"
 #import <pthread.h>
 
-extern uint64_t dispatch_benchmark(size_t count, void (^block)(void));
-
 void JPDispatchSyncOnMainQueue(void (^block)(void)) {
     if (!block) {
         return;
