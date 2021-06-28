@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VideoPlayer"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Automatic play video in UITableView like Weibo home page in main thread and never block main thread."
 
   # This description is used to generate tags and improve search results.
