@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F806697626896F2F0072722E /* VideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F806697426896F2F0072722E /* VideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80669A72689705E0072722E /* JPVideoPlayerControlViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F806697C2689705E0072722E /* JPVideoPlayerControlViews.m */; };
+		F80669A82689705E0072722E /* UICollectionViewCell+WebVideoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F806697D2689705E0072722E /* UICollectionViewCell+WebVideoCache.h */; };
+		F80669A92689705E0072722E /* JPVideoPlayerCacheFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F806697E2689705E0072722E /* JPVideoPlayerCacheFile.h */; };
+		F80669AA2689705E0072722E /* JPVideoPlayerCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F806697F2689705E0072722E /* JPVideoPlayerCache.m */; };
+		F80669AB2689705E0072722E /* JPMethodInjecting.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669802689705E0072722E /* JPMethodInjecting.m */; };
+		F80669AC2689705E0072722E /* JPVideoPlayerControlViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669812689705E0072722E /* JPVideoPlayerControlViews.h */; };
+		F80669AD2689705E0072722E /* UICollectionViewCell+WebVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669822689705E0072722E /* UICollectionViewCell+WebVideoCache.m */; };
+		F80669AE2689705E0072722E /* JPVideoPlayerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669832689705E0072722E /* JPVideoPlayerKit.h */; };
+		F80669AF2689705E0072722E /* JPVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669842689705E0072722E /* JPVideoPlayer.m */; };
+		F80669B02689705E0072722E /* JPVideoPlayerSupportUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669852689705E0072722E /* JPVideoPlayerSupportUtils.m */; };
+		F80669B12689705E0072722E /* UITableView+WebVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669862689705E0072722E /* UITableView+WebVideoCache.m */; };
+		F80669B22689705E0072722E /* JPVideoPlayerCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669872689705E0072722E /* JPVideoPlayerCompat.m */; };
+		F80669B32689705E0072722E /* JPVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669882689705E0072722E /* JPVideoPlayer.h */; };
+		F80669B42689705E0072722E /* JPVideoPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669892689705E0072722E /* JPVideoPlayerResourceLoader.m */; };
+		F80669B52689705E0072722E /* JPGCDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F806698A2689705E0072722E /* JPGCDExtensions.h */; };
+		F80669B62689705E0072722E /* JPVideoPlayerScrollViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F806698B2689705E0072722E /* JPVideoPlayerScrollViewProtocol.h */; };
+		F80669B72689705E0072722E /* JPVideoPlayerCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F806698C2689705E0072722E /* JPVideoPlayerCacheFile.m */; };
+		F80669B82689705E0072722E /* JPVideoPlayerDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F806698D2689705E0072722E /* JPVideoPlayerDownloader.m */; };
+		F80669B92689705E0072722E /* JPVideoPlayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F806698E2689705E0072722E /* JPVideoPlayerProtocol.h */; };
+		F80669BA2689705E0072722E /* UITableViewCell+WebVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F806698F2689705E0072722E /* UITableViewCell+WebVideoCache.m */; };
+		F80669BB2689705E0072722E /* JPVideoPlayerCachePath.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669902689705E0072722E /* JPVideoPlayerCachePath.m */; };
+		F80669BC2689705E0072722E /* JPGCDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669912689705E0072722E /* JPGCDExtensions.m */; };
+		F80669BD2689705E0072722E /* JPVideoPlayerSupportUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669922689705E0072722E /* JPVideoPlayerSupportUtils.h */; };
+		F80669BE2689705E0072722E /* JPVideoPlayerScrollViewProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669932689705E0072722E /* JPVideoPlayerScrollViewProtocol.m */; };
+		F80669BF2689705E0072722E /* JPVideoPlayerDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669942689705E0072722E /* JPVideoPlayerDownloader.h */; };
+		F80669C02689705E0072722E /* JPVideoPlayerCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669952689705E0072722E /* JPVideoPlayerCache.h */; };
+		F80669C12689705E0072722E /* UIView+WebVideoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669962689705E0072722E /* UIView+WebVideoCache.h */; };
+		F80669C22689705E0072722E /* UIView+WebVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669972689705E0072722E /* UIView+WebVideoCache.m */; };
+		F80669C32689705E0072722E /* JPVideoPlayerCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669982689705E0072722E /* JPVideoPlayerCompat.h */; };
+		F80669C42689705E0072722E /* JPResourceLoadingRequestTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669992689705E0072722E /* JPResourceLoadingRequestTask.h */; };
+		F80669C52689705E0072722E /* UICollectionView+WebVideoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F806699A2689705E0072722E /* UICollectionView+WebVideoCache.h */; };
+		F80669C62689705E0072722E /* JPVideoPlayerCachePath.h in Headers */ = {isa = PBXBuildFile; fileRef = F806699B2689705E0072722E /* JPVideoPlayerCachePath.h */; };
+		F80669C72689705E0072722E /* UITableViewCell+WebVideoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F806699C2689705E0072722E /* UITableViewCell+WebVideoCache.h */; };
+		F80669C82689705E0072722E /* JPVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F806699D2689705E0072722E /* JPVideoPlayer.bundle */; };
+		F80669C92689705E0072722E /* JPVideoPlayerResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F806699E2689705E0072722E /* JPVideoPlayerResourceLoader.h */; };
+		F80669CA2689705E0072722E /* UITableView+WebVideoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F806699F2689705E0072722E /* UITableView+WebVideoCache.h */; };
+		F80669CB2689705E0072722E /* JPVideoPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669A02689705E0072722E /* JPVideoPlayerManager.m */; };
+		F80669CC2689705E0072722E /* JPResourceLoadingRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669A12689705E0072722E /* JPResourceLoadingRequestTask.m */; };
+		F80669CD2689705E0072722E /* JPVideoPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669A22689705E0072722E /* JPVideoPlayerManager.h */; };
+		F80669CE2689705E0072722E /* UICollectionView+WebVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669A32689705E0072722E /* UICollectionView+WebVideoCache.m */; };
+		F80669CF2689705E0072722E /* JPMethodInjecting.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669A42689705E0072722E /* JPMethodInjecting.h */; };
+		F80669D02689705E0072722E /* JPVideoPlayerCellProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F80669A52689705E0072722E /* JPVideoPlayerCellProtocol.m */; };
+		F80669D12689705E0072722E /* JPVideoPlayerCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F80669A62689705E0072722E /* JPVideoPlayerCellProtocol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F806697126896F2F0072722E /* VideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F806697426896F2F0072722E /* VideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		F806697526896F2F0072722E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F806697C2689705E0072722E /* JPVideoPlayerControlViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerControlViews.m; path = ../../Sources/VideoPlayer/JPVideoPlayerControlViews.m; sourceTree = "<group>"; };
+		F806697D2689705E0072722E /* UICollectionViewCell+WebVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+WebVideoCache.h"; path = "../../Sources/VideoPlayer/UICollectionViewCell+WebVideoCache.h"; sourceTree = "<group>"; };
+		F806697E2689705E0072722E /* JPVideoPlayerCacheFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerCacheFile.h; path = ../../Sources/VideoPlayer/JPVideoPlayerCacheFile.h; sourceTree = "<group>"; };
+		F806697F2689705E0072722E /* JPVideoPlayerCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerCache.m; path = ../../Sources/VideoPlayer/JPVideoPlayerCache.m; sourceTree = "<group>"; };
+		F80669802689705E0072722E /* JPMethodInjecting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPMethodInjecting.m; path = ../../Sources/VideoPlayer/JPMethodInjecting.m; sourceTree = "<group>"; };
+		F80669812689705E0072722E /* JPVideoPlayerControlViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerControlViews.h; path = ../../Sources/VideoPlayer/JPVideoPlayerControlViews.h; sourceTree = "<group>"; };
+		F80669822689705E0072722E /* UICollectionViewCell+WebVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+WebVideoCache.m"; path = "../../Sources/VideoPlayer/UICollectionViewCell+WebVideoCache.m"; sourceTree = "<group>"; };
+		F80669832689705E0072722E /* JPVideoPlayerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerKit.h; path = ../../Sources/VideoPlayer/JPVideoPlayerKit.h; sourceTree = "<group>"; };
+		F80669842689705E0072722E /* JPVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayer.m; path = ../../Sources/VideoPlayer/JPVideoPlayer.m; sourceTree = "<group>"; };
+		F80669852689705E0072722E /* JPVideoPlayerSupportUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerSupportUtils.m; path = ../../Sources/VideoPlayer/JPVideoPlayerSupportUtils.m; sourceTree = "<group>"; };
+		F80669862689705E0072722E /* UITableView+WebVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+WebVideoCache.m"; path = "../../Sources/VideoPlayer/UITableView+WebVideoCache.m"; sourceTree = "<group>"; };
+		F80669872689705E0072722E /* JPVideoPlayerCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerCompat.m; path = ../../Sources/VideoPlayer/JPVideoPlayerCompat.m; sourceTree = "<group>"; };
+		F80669882689705E0072722E /* JPVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayer.h; path = ../../Sources/VideoPlayer/JPVideoPlayer.h; sourceTree = "<group>"; };
+		F80669892689705E0072722E /* JPVideoPlayerResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerResourceLoader.m; path = ../../Sources/VideoPlayer/JPVideoPlayerResourceLoader.m; sourceTree = "<group>"; };
+		F806698A2689705E0072722E /* JPGCDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPGCDExtensions.h; path = ../../Sources/VideoPlayer/JPGCDExtensions.h; sourceTree = "<group>"; };
+		F806698B2689705E0072722E /* JPVideoPlayerScrollViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerScrollViewProtocol.h; path = ../../Sources/VideoPlayer/JPVideoPlayerScrollViewProtocol.h; sourceTree = "<group>"; };
+		F806698C2689705E0072722E /* JPVideoPlayerCacheFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerCacheFile.m; path = ../../Sources/VideoPlayer/JPVideoPlayerCacheFile.m; sourceTree = "<group>"; };
+		F806698D2689705E0072722E /* JPVideoPlayerDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerDownloader.m; path = ../../Sources/VideoPlayer/JPVideoPlayerDownloader.m; sourceTree = "<group>"; };
+		F806698E2689705E0072722E /* JPVideoPlayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerProtocol.h; path = ../../Sources/VideoPlayer/JPVideoPlayerProtocol.h; sourceTree = "<group>"; };
+		F806698F2689705E0072722E /* UITableViewCell+WebVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+WebVideoCache.m"; path = "../../Sources/VideoPlayer/UITableViewCell+WebVideoCache.m"; sourceTree = "<group>"; };
+		F80669902689705E0072722E /* JPVideoPlayerCachePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerCachePath.m; path = ../../Sources/VideoPlayer/JPVideoPlayerCachePath.m; sourceTree = "<group>"; };
+		F80669912689705E0072722E /* JPGCDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPGCDExtensions.m; path = ../../Sources/VideoPlayer/JPGCDExtensions.m; sourceTree = "<group>"; };
+		F80669922689705E0072722E /* JPVideoPlayerSupportUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerSupportUtils.h; path = ../../Sources/VideoPlayer/JPVideoPlayerSupportUtils.h; sourceTree = "<group>"; };
+		F80669932689705E0072722E /* JPVideoPlayerScrollViewProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerScrollViewProtocol.m; path = ../../Sources/VideoPlayer/JPVideoPlayerScrollViewProtocol.m; sourceTree = "<group>"; };
+		F80669942689705E0072722E /* JPVideoPlayerDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerDownloader.h; path = ../../Sources/VideoPlayer/JPVideoPlayerDownloader.h; sourceTree = "<group>"; };
+		F80669952689705E0072722E /* JPVideoPlayerCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerCache.h; path = ../../Sources/VideoPlayer/JPVideoPlayerCache.h; sourceTree = "<group>"; };
+		F80669962689705E0072722E /* UIView+WebVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WebVideoCache.h"; path = "../../Sources/VideoPlayer/UIView+WebVideoCache.h"; sourceTree = "<group>"; };
+		F80669972689705E0072722E /* UIView+WebVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebVideoCache.m"; path = "../../Sources/VideoPlayer/UIView+WebVideoCache.m"; sourceTree = "<group>"; };
+		F80669982689705E0072722E /* JPVideoPlayerCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerCompat.h; path = ../../Sources/VideoPlayer/JPVideoPlayerCompat.h; sourceTree = "<group>"; };
+		F80669992689705E0072722E /* JPResourceLoadingRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPResourceLoadingRequestTask.h; path = ../../Sources/VideoPlayer/JPResourceLoadingRequestTask.h; sourceTree = "<group>"; };
+		F806699A2689705E0072722E /* UICollectionView+WebVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+WebVideoCache.h"; path = "../../Sources/VideoPlayer/UICollectionView+WebVideoCache.h"; sourceTree = "<group>"; };
+		F806699B2689705E0072722E /* JPVideoPlayerCachePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerCachePath.h; path = ../../Sources/VideoPlayer/JPVideoPlayerCachePath.h; sourceTree = "<group>"; };
+		F806699C2689705E0072722E /* UITableViewCell+WebVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+WebVideoCache.h"; path = "../../Sources/VideoPlayer/UITableViewCell+WebVideoCache.h"; sourceTree = "<group>"; };
+		F806699D2689705E0072722E /* JPVideoPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = JPVideoPlayer.bundle; path = ../../Sources/VideoPlayer/JPVideoPlayer.bundle; sourceTree = "<group>"; };
+		F806699E2689705E0072722E /* JPVideoPlayerResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerResourceLoader.h; path = ../../Sources/VideoPlayer/JPVideoPlayerResourceLoader.h; sourceTree = "<group>"; };
+		F806699F2689705E0072722E /* UITableView+WebVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+WebVideoCache.h"; path = "../../Sources/VideoPlayer/UITableView+WebVideoCache.h"; sourceTree = "<group>"; };
+		F80669A02689705E0072722E /* JPVideoPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerManager.m; path = ../../Sources/VideoPlayer/JPVideoPlayerManager.m; sourceTree = "<group>"; };
+		F80669A12689705E0072722E /* JPResourceLoadingRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPResourceLoadingRequestTask.m; path = ../../Sources/VideoPlayer/JPResourceLoadingRequestTask.m; sourceTree = "<group>"; };
+		F80669A22689705E0072722E /* JPVideoPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerManager.h; path = ../../Sources/VideoPlayer/JPVideoPlayerManager.h; sourceTree = "<group>"; };
+		F80669A32689705E0072722E /* UICollectionView+WebVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+WebVideoCache.m"; path = "../../Sources/VideoPlayer/UICollectionView+WebVideoCache.m"; sourceTree = "<group>"; };
+		F80669A42689705E0072722E /* JPMethodInjecting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPMethodInjecting.h; path = ../../Sources/VideoPlayer/JPMethodInjecting.h; sourceTree = "<group>"; };
+		F80669A52689705E0072722E /* JPVideoPlayerCellProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPVideoPlayerCellProtocol.m; path = ../../Sources/VideoPlayer/JPVideoPlayerCellProtocol.m; sourceTree = "<group>"; };
+		F80669A62689705E0072722E /* JPVideoPlayerCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPVideoPlayerCellProtocol.h; path = ../../Sources/VideoPlayer/JPVideoPlayerCellProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F806696E26896F2F0072722E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F806696726896F2F0072722E = {
+			isa = PBXGroup;
+			children = (
+				F806697326896F2F0072722E /* VideoPlayer */,
+				F806697226896F2F0072722E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F806697226896F2F0072722E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F806697126896F2F0072722E /* VideoPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F806697326896F2F0072722E /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F806698A2689705E0072722E /* JPGCDExtensions.h */,
+				F80669912689705E0072722E /* JPGCDExtensions.m */,
+				F80669A42689705E0072722E /* JPMethodInjecting.h */,
+				F80669802689705E0072722E /* JPMethodInjecting.m */,
+				F80669992689705E0072722E /* JPResourceLoadingRequestTask.h */,
+				F80669A12689705E0072722E /* JPResourceLoadingRequestTask.m */,
+				F806699D2689705E0072722E /* JPVideoPlayer.bundle */,
+				F80669882689705E0072722E /* JPVideoPlayer.h */,
+				F80669842689705E0072722E /* JPVideoPlayer.m */,
+				F80669952689705E0072722E /* JPVideoPlayerCache.h */,
+				F806697F2689705E0072722E /* JPVideoPlayerCache.m */,
+				F806697E2689705E0072722E /* JPVideoPlayerCacheFile.h */,
+				F806698C2689705E0072722E /* JPVideoPlayerCacheFile.m */,
+				F806699B2689705E0072722E /* JPVideoPlayerCachePath.h */,
+				F80669902689705E0072722E /* JPVideoPlayerCachePath.m */,
+				F80669A62689705E0072722E /* JPVideoPlayerCellProtocol.h */,
+				F80669A52689705E0072722E /* JPVideoPlayerCellProtocol.m */,
+				F80669982689705E0072722E /* JPVideoPlayerCompat.h */,
+				F80669872689705E0072722E /* JPVideoPlayerCompat.m */,
+				F80669812689705E0072722E /* JPVideoPlayerControlViews.h */,
+				F806697C2689705E0072722E /* JPVideoPlayerControlViews.m */,
+				F80669942689705E0072722E /* JPVideoPlayerDownloader.h */,
+				F806698D2689705E0072722E /* JPVideoPlayerDownloader.m */,
+				F80669832689705E0072722E /* JPVideoPlayerKit.h */,
+				F80669A22689705E0072722E /* JPVideoPlayerManager.h */,
+				F80669A02689705E0072722E /* JPVideoPlayerManager.m */,
+				F806698E2689705E0072722E /* JPVideoPlayerProtocol.h */,
+				F806699E2689705E0072722E /* JPVideoPlayerResourceLoader.h */,
+				F80669892689705E0072722E /* JPVideoPlayerResourceLoader.m */,
+				F806698B2689705E0072722E /* JPVideoPlayerScrollViewProtocol.h */,
+				F80669932689705E0072722E /* JPVideoPlayerScrollViewProtocol.m */,
+				F80669922689705E0072722E /* JPVideoPlayerSupportUtils.h */,
+				F80669852689705E0072722E /* JPVideoPlayerSupportUtils.m */,
+				F806699A2689705E0072722E /* UICollectionView+WebVideoCache.h */,
+				F80669A32689705E0072722E /* UICollectionView+WebVideoCache.m */,
+				F806697D2689705E0072722E /* UICollectionViewCell+WebVideoCache.h */,
+				F80669822689705E0072722E /* UICollectionViewCell+WebVideoCache.m */,
+				F806699F2689705E0072722E /* UITableView+WebVideoCache.h */,
+				F80669862689705E0072722E /* UITableView+WebVideoCache.m */,
+				F806699C2689705E0072722E /* UITableViewCell+WebVideoCache.h */,
+				F806698F2689705E0072722E /* UITableViewCell+WebVideoCache.m */,
+				F80669962689705E0072722E /* UIView+WebVideoCache.h */,
+				F80669972689705E0072722E /* UIView+WebVideoCache.m */,
+				F806697426896F2F0072722E /* VideoPlayer.h */,
+				F806697526896F2F0072722E /* Info.plist */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F806696C26896F2F0072722E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80669B52689705E0072722E /* JPGCDExtensions.h in Headers */,
+				F80669A92689705E0072722E /* JPVideoPlayerCacheFile.h in Headers */,
+				F80669C42689705E0072722E /* JPResourceLoadingRequestTask.h in Headers */,
+				F80669B92689705E0072722E /* JPVideoPlayerProtocol.h in Headers */,
+				F80669D12689705E0072722E /* JPVideoPlayerCellProtocol.h in Headers */,
+				F80669C72689705E0072722E /* UITableViewCell+WebVideoCache.h in Headers */,
+				F80669BD2689705E0072722E /* JPVideoPlayerSupportUtils.h in Headers */,
+				F80669C92689705E0072722E /* JPVideoPlayerResourceLoader.h in Headers */,
+				F80669C12689705E0072722E /* UIView+WebVideoCache.h in Headers */,
+				F80669C62689705E0072722E /* JPVideoPlayerCachePath.h in Headers */,
+				F80669C32689705E0072722E /* JPVideoPlayerCompat.h in Headers */,
+				F80669CA2689705E0072722E /* UITableView+WebVideoCache.h in Headers */,
+				F80669C02689705E0072722E /* JPVideoPlayerCache.h in Headers */,
+				F806697626896F2F0072722E /* VideoPlayer.h in Headers */,
+				F80669B62689705E0072722E /* JPVideoPlayerScrollViewProtocol.h in Headers */,
+				F80669CD2689705E0072722E /* JPVideoPlayerManager.h in Headers */,
+				F80669AC2689705E0072722E /* JPVideoPlayerControlViews.h in Headers */,
+				F80669B32689705E0072722E /* JPVideoPlayer.h in Headers */,
+				F80669CF2689705E0072722E /* JPMethodInjecting.h in Headers */,
+				F80669AE2689705E0072722E /* JPVideoPlayerKit.h in Headers */,
+				F80669A82689705E0072722E /* UICollectionViewCell+WebVideoCache.h in Headers */,
+				F80669C52689705E0072722E /* UICollectionView+WebVideoCache.h in Headers */,
+				F80669BF2689705E0072722E /* JPVideoPlayerDownloader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F806697026896F2F0072722E /* VideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F806697926896F2F0072722E /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
+			buildPhases = (
+				F806696C26896F2F0072722E /* Headers */,
+				F806696D26896F2F0072722E /* Sources */,
+				F806696E26896F2F0072722E /* Frameworks */,
+				F806696F26896F2F0072722E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPlayer;
+			productName = VideoPlayer;
+			productReference = F806697126896F2F0072722E /* VideoPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F806696826896F2F0072722E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F806697026896F2F0072722E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F806696B26896F2F0072722E /* Build configuration list for PBXProject "VideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F806696726896F2F0072722E;
+			productRefGroup = F806697226896F2F0072722E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F806697026896F2F0072722E /* VideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F806696F26896F2F0072722E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80669C82689705E0072722E /* JPVideoPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F806696D26896F2F0072722E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80669B12689705E0072722E /* UITableView+WebVideoCache.m in Sources */,
+				F80669B42689705E0072722E /* JPVideoPlayerResourceLoader.m in Sources */,
+				F80669D02689705E0072722E /* JPVideoPlayerCellProtocol.m in Sources */,
+				F80669AD2689705E0072722E /* UICollectionViewCell+WebVideoCache.m in Sources */,
+				F80669BB2689705E0072722E /* JPVideoPlayerCachePath.m in Sources */,
+				F80669BE2689705E0072722E /* JPVideoPlayerScrollViewProtocol.m in Sources */,
+				F80669BC2689705E0072722E /* JPGCDExtensions.m in Sources */,
+				F80669B22689705E0072722E /* JPVideoPlayerCompat.m in Sources */,
+				F80669AB2689705E0072722E /* JPMethodInjecting.m in Sources */,
+				F80669B02689705E0072722E /* JPVideoPlayerSupportUtils.m in Sources */,
+				F80669CE2689705E0072722E /* UICollectionView+WebVideoCache.m in Sources */,
+				F80669CC2689705E0072722E /* JPResourceLoadingRequestTask.m in Sources */,
+				F80669A72689705E0072722E /* JPVideoPlayerControlViews.m in Sources */,
+				F80669BA2689705E0072722E /* UITableViewCell+WebVideoCache.m in Sources */,
+				F80669B72689705E0072722E /* JPVideoPlayerCacheFile.m in Sources */,
+				F80669AA2689705E0072722E /* JPVideoPlayerCache.m in Sources */,
+				F80669AF2689705E0072722E /* JPVideoPlayer.m in Sources */,
+				F80669C22689705E0072722E /* UIView+WebVideoCache.m in Sources */,
+				F80669CB2689705E0072722E /* JPVideoPlayerManager.m in Sources */,
+				F80669B82689705E0072722E /* JPVideoPlayerDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F806697726896F2F0072722E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F806697826896F2F0072722E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F806697A26896F2F0072722E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2RZDHZVBUQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "video-player.VideoPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F806697B26896F2F0072722E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2RZDHZVBUQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "video-player.VideoPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F806696B26896F2F0072722E /* Build configuration list for PBXProject "VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F806697726896F2F0072722E /* Debug */,
+				F806697826896F2F0072722E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F806697926896F2F0072722E /* Build configuration list for PBXNativeTarget "VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F806697A26896F2F0072722E /* Debug */,
+				F806697B26896F2F0072722E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F806696826896F2F0072722E /* Project object */;
+}
