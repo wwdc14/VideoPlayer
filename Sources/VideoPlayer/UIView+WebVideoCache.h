@@ -194,7 +194,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param configuration           The block will be call when video player complete the configuration. because initialize player is not synchronize,
  *                                 so other category method is disabled before complete the configuration.
  */
-- (void)jp_playVideoMuteWithURL:(NSURL *)url
+- (void)jp_playVideoMuteWithURL:(NSURL *_Nullable)url
              bufferingIndicator:(UIView <JPVideoPlayerBufferingProtocol> *_Nullable)bufferingIndicator
                    progressView:(UIView <JPVideoPlayerProtocol> *_Nullable)progressView
                   configuration:(JPPlayVideoConfiguration _Nullable)configuration;
@@ -215,7 +215,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param configuration           The block will be call when video player complete the configuration. because initialize player is not synchronize,
  *                                 so other category method is disabled before complete the configuration.
  */
-- (void)jp_resumeMutePlayWithURL:(NSURL *)url
+- (void)jp_resumeMutePlayWithURL:(NSURL *_Nullable)url
               bufferingIndicator:(UIView <JPVideoPlayerBufferingProtocol> *_Nullable)bufferingIndicator
                     progressView:(UIView <JPVideoPlayerProtocol> *_Nullable)progressView
                    configuration:(JPPlayVideoConfiguration _Nullable)configuration;
@@ -237,7 +237,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param configuration           The block will be call when video player complete the configuration. because initialize player is not synchronize,
  *                                 so other category method is disabled before complete the configuration.
  */
-- (void)jp_playVideoWithURL:(NSURL *)url
+- (void)jp_playVideoWithURL:(NSURL *_Nullable)url
          bufferingIndicator:(UIView <JPVideoPlayerBufferingProtocol> *_Nullable)bufferingIndicator
                 controlView:(UIView <JPVideoPlayerProtocol> *_Nullable)controlView
                progressView:(UIView <JPVideoPlayerProtocol> *_Nullable)progressView
@@ -263,7 +263,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param configuration           The block will be call when video player complete the configuration. because initialize player is not synchronize,
  *                                 so other category method is disabled before complete the configuration.
  */
-- (void)jp_resumePlayWithURL:(NSURL *)url
+- (void)jp_resumePlayWithURL:(NSURL *_Nullable)url
           bufferingIndicator:(UIView <JPVideoPlayerBufferingProtocol> *_Nullable)bufferingIndicator
                  controlView:(UIView <JPVideoPlayerProtocol> *_Nullable)controlView
                 progressView:(UIView <JPVideoPlayerProtocol> *_Nullable)progressView
@@ -279,7 +279,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param configuration           The block will be call when video player complete the configuration. because initialize player is not synchronize,
  *                                 so other category method is disabled before complete the configuration.
  */
-- (void)jp_playVideoWithURL:(NSURL *)url
+- (void)jp_playVideoWithURL:(NSURL *_Nullable)url
                     options:(JPVideoPlayerOptions)options
               configuration:(JPPlayVideoConfiguration _Nullable)configuration;
 
@@ -296,7 +296,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param configuration           The block will be call when video player complete the configuration. because initialize player is not synchronize,
  *                                 so other category method is disabled before complete the configuration.
  */
-- (void)jp_resumePlayWithURL:(NSURL *)url
+- (void)jp_resumePlayWithURL:(NSURL *_Nullable)url
                      options:(JPVideoPlayerOptions)options
                configuration:(JPPlayVideoConfiguration _Nullable)configuration;
 
